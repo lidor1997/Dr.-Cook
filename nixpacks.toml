@@ -1,0 +1,8 @@
+[phases.setup]
+commands = ["npm install -g yarn"]
+
+[phases.build]
+commands = ["yarn install", "yarn build"]
+
+[phases.start]
+commands = ["yarn start"]
