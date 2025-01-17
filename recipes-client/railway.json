@@ -2,8 +2,8 @@
     "build": {
         "base": ".",
         "commands": {
-            "install": "npm install --legacy-peer-deps",
-            "build": "npm run build"
+            "install": "yarn install",
+            "build": "yarn build"
         },
         "outputDir": "build"
     }
