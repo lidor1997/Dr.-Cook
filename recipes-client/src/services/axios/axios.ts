@@ -3,7 +3,7 @@ import { default as Axios } from "axios";
 import { appStorage } from "../appStorage";
 
 export const axios = Axios.create({
-  baseURL: "https://dr-cook-api.up.railway.app/api",
+  baseURL: "https://dr-cook.vercel.app/",
 });
 
 axios.interceptors.request.use(async (config) => {
